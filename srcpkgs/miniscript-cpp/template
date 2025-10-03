@@ -1,0 +1,11 @@
+# Template file for 'miniscript-cpp'
+pkgname=miniscript-cpp
+version=1.6.2
+revision=1
+build_style=cmake
+short_desc="Miniscript programming language"
+maintainer="sleeves <sleeves@mailfence.com>"
+license="MIT"
+homepage="https://miniscript.org"
+distfiles="https://github.com/JoeStrout/miniscript/archive/refs/tags/v${version}.tar.gz"
+checksum=62df0ce8faca21db588ed5f0abe020a41602c8fc02376f6b2385869863acbefd
