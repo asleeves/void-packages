@@ -1,0 +1,16 @@
+pkgname=hare
+version=0.25.2
+revision=1
+archs="x86_64"
+makedepends="harec"
+build_style=gnu-makefile
+short_desc="Hare programming language"
+maintainer="sleeves <sleeves@mailfence.com>"
+license="MPL-2.0 AND GPL-3.0-only"
+homepage="https://harelang.org/"
+distfiles="https://git.sr.ht/~sircmpwn/hare/archive/${version}.tar.gz"
+checksum=d0baf74f4e20a3a875ddd8e2b299032ada4e5de17d8413053cad0f709446348e
+
+do_configure() {
+  cp configs/linux.mk config.mk
+}
