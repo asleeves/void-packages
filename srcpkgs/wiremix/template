@@ -1,0 +1,15 @@
+# Template file for 'wiremix'
+pkgname=wiremix
+version=0.7.0
+revision=1
+archs="x86_64"
+build_style=cargo
+makedepends="pipewire-devel clang libgit2-glib-devel pkg-config"
+short_desc="TUI audio mixer"
+maintainer="sleeves <sleeves@mailfence.com>"
+license="MIT OR Apache-2.0"
+homepage="https://github.com/tsowell/wiremix"
+changelog="https://raw.githubusercontent.com/tsowell/wiremix/refs/heads/main/CHANGELOG.md"
+distfiles="https://github.com/tsowell/wiremix/archive/refs/tags/v${version}.tar.gz"
+checksum=129bb85eca0e59dcc0e7e5306a3667d2ad4772baff346ec9fd4410fde796e5b4
+

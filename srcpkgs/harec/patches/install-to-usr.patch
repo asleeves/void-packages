@@ -1,0 +1,11 @@
+diff --git a/config.mk b/config.mk
+index 9fa74360103..a3d58a1daf0 100644
+--- a/config.mk
++++ b/config.mk
+@@ -1,5 +1,5 @@
+ # install locations
+-PREFIX = /usr/local
++PREFIX = /usr
+ BINDIR = $(PREFIX)/bin
+ 
+ # variables used during build
