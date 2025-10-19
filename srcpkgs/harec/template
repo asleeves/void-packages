@@ -1,3 +1,4 @@
+# Template file for 'harec'
 pkgname=harec
 version=0.25.2
 revision=1
@@ -15,5 +16,5 @@ pre_patch() {
 }
 
 do_install() {
-    make DESTDIR=$DESTDIR install
+	make DESTDIR=$DESTDIR install
 }
